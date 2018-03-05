@@ -1,0 +1,279 @@
+<div class="container">
+
+	<div class="row userProfileContainer">
+		<div class="col-md-2 leftContainer">
+		<div class="basicInfoTxt">Basic Info </div>
+		<div class="leftinnerContainer">
+
+		
+			<div class="userBasicInfoContainer">
+
+				<div style="margin-bottom: 20px;" class="userPicContainer">
+					<div class="profileBackgroundImg" ng-style="{'background-image':'url(' + crmconfig.serverDomainName + '/'+companyData.logo + ')'}"  ng-if="!newUploadPic">
+
+						<div class="changeUserPhotoBtn" ng-click="clickCompanyChangePicture()"><i class="fa fa-camera"></i> Change Photo</div>
+						<!--<input type="file" class="fileUploadInput" name="image" onchange="angular.element(this).scope().fileSelected(this.files)" ng-show="false" />-->
+					</div>
+
+					<div class="profileBackgroundImg" ng-style="{'background-image':'url(' + imgsrc + ')'}"  ng-if="newUploadPic">
+
+						<div class="changeUserPhotoBtn" ng-click="clickCompanyChangePicture()"><i class="fa fa-camera"></i> Change Photo</div>
+						<!--<input type="file" class="fileUploadInput" name="image" onchange="angular.element(this).scope().fileSelected(this.files)" ng-show="false" />-->
+					</div>
+
+
+					<!--<img  ng-src="{{crmconfig.serverDomainName + companyData.logo}}"  ng-if="!newUploadPic">-->
+
+                    <!--<img src="img/default-avatar.png" ng-src="{{imgsrc}}" ng-if="newUploadPic">-->
+
+                	<input type="file" class="fileUploadInput companyPicUplaodInput" name="image" onchange="angular.element(this).scope().fileSelected(this.files)" ng-show="false"  />
+                    
+                     <!--<div class="changeUserPhotoBtn" ng-click="clickCompanyChangePicture()"><i class="fa fa-camera"></i> Change Photo</div>-->
+				</div>	
+
+			<div  class="clearboth">
+				<div class="col-md-6" ng-show="!profileEdit">
+					Name
+				</div>	
+				<div class="col-md-6 wordBreakAll" ng-show="!profileEdit">	
+						<span >{{companyData.name}}</span>
+								
+				</div>
+				<div class="mtb-10px text-center " ng-show="profileEdit">
+						<input  placeholder="full Name" name="fullname" ng-show="profileEdit" type="text" ng-model="companyData.name" >
+				</div>
+			</div>
+			<div class="clearboth">
+				<div class="col-md-6" ng-show="!profileEdit">
+					Industry
+				</div>	
+				<div class="col-md-6 wordBreakAll" ng-show="!profileEdit"><span >{{companyData.areaOfWork}}</span>	
+					
+				</div>
+
+				<div  class="mtb-10px text-center " ng-show="profileEdit">
+					<input placeholder="Industry" type="text" ng-model="companyData.areaOfWork" >
+				</div>
+			</div>	
+                
+            <div class="clearboth">
+				<div class="col-md-6" ng-show="!profileEdit">
+					Establishment
+				</div>	
+				<div class="col-md-6 wordBreakAll" ng-show="!profileEdit"><span >{{companyData.establised}}</span>	
+					
+				</div>
+
+				<div  class="mtb-10px text-center " ng-show="profileEdit">
+					<input placeholder="Establishment" type="text" ng-model="companyData.establised" >
+				</div>
+			</div>
+                
+            <div  class="clearboth">
+				<div class="col-md-6" ng-show="!profileEdit">
+					Location
+				</div>	
+				<div class="col-md-6 wordBreakAll" ng-show="!profileEdit"><span >{{companyData.ofcAddress}}</span>	
+					
+				</div>
+					
+				<div  class="mtb-10px text-center " ng-show="profileEdit">
+					<input  placeholder="Location" type="text" ng-model="companyData.ofcAddress" >
+				</div>
+			</div>
+                
+            <div class="clearboth">
+				<div class="col-md-6" ng-show="!profileEdit">
+					Year Revenue
+				</div>
+				<div class="col-md-6 wordBreakAll" ng-show="!profileEdit"><span >{{companyData.revenue}}</span>	
+					
+				</div>
+
+				<div  class="mtb-10px text-center " ng-show="profileEdit">
+					<input placeholder="job Role" type="text" ng-model="companyData.revenue" >
+				</div>
+			</div>    
+
+
+
+			</div>
+
+		</div>
+		</div>
+		<div class="col-md-9 rightContainer"> 
+				<div class="row-fluid">
+					<ul class="nav nav-tabs">
+					  <li ng-class="{'active':activeTab == tabs.summary}" ng-click="activeTab=tabs.summary"> <a>Summary</a></li>
+					  <li ng-class="{'active':activeTab == tabs.attachment}" ng-click="activeTab=tabs.attachment"><a>Attachment</a></li>
+					</ul>
+				</div>
+
+				<div class="summaryContainer" ng-show="activeTab == tabs.summary">
+
+					<div class="row-fluid editSaveBtn" style="text-align:right">
+						<span class="linkBtn" ng-show="!profileEdit" ng-click="changeProfileEdit()"> Edit</span>
+						<span class="linkBtn" ng-click="saveProfile()" ng-show="profileEdit">Save</span>
+					</div>
+					<div class="row">
+					<div class="contactsContainer col-md-6">
+						<div class="mtb-10px row contactsTxt">
+							Contacts
+						</div>
+						
+						<div class="mtb-10px row">
+							
+							<span class="col-md-4">Phone Number</span>  <span ng-show="!profileEdit" >
+							{{companyData.phone}} </span>
+							<input type="text" ng-model="companyData.phone" ng-show="profileEdit">
+						</div>
+
+						<div class="mtb-10px row">
+							<span class="col-md-4">Email Address</span>  <span ng-show="!profileEdit">
+							{{companyData.email}}</span> 
+							<input type="text" ng-model="companyData.email" ng-show="profileEdit">
+						</div>
+
+
+					</div>
+					<div class="contactsContainer col-md-6">
+						<div class="mtb-10px row" >
+							
+						</div>
+						
+						<div class="mtb-10px row">
+							
+							<span class="col-md-4">Facebook</span>  <span ng-show="!profileEdit" >{{ companyData.fb }} </span>
+							<input type="text" ng-model="companyData.fb" ng-show="profileEdit">
+						</div>
+
+						<div class="mtb-10px row">
+							
+							<span class="col-md-4">LinkedIn</span>  <span ng-show="!profileEdit" >{{ companyData.linkedin }} </span>
+							<input type="text" ng-model="companyData.linkedin" ng-show="profileEdit">
+						</div>
+
+						<div class="mtb-10px row">
+							<span class="col-md-4">twitter</span>  <span ng-show="!profileEdit">{{ companyData.twitter }}</span> 
+							<input type="text" ng-model="companyData.twitter" ng-show="profileEdit">
+						</div>
+	
+<!--						<div class="mtb-10px row">
+							<span class="col-md-4">Facebook</span>  <span ng-show="!profileEdit">{{ userProfileInfo.facebook }}</span>
+							<input type="text" ng-model="userProfileInfo.facebook" ng-show="profileEdit">
+						</div>
+-->
+
+						
+
+					</div>
+					</div>
+					<div class="row-fluid">
+						<div class="notesDivider row">
+							Description
+						</div>
+						<div class="notesContainer">
+						<div  ng-show="!profileEdit">{{ companyData.notes }}</div>
+	                   <textarea  ng-show="profileEdit" rows="4" ng-model="companyData.notes">
+<!--	                        {{ userProfileInfo.notes }}-->
+	                    </textarea>   
+						</div>
+
+						<div class="notesDivider row">
+							Keywords
+						</div>
+						<div class="notesContainer">
+						<div  ng-show="!profileEdit">{{ companyData.extra }}</div>
+	                   <textarea  ng-show="profileEdit" rows="4" ng-model="companyData.extra">
+<!--	                        {{ userProfileInfo.notes }}-->
+	                    </textarea>   
+						</div>
+					</div>	
+				</div>
+				<div class="attachmentContainer" ng-show="activeTab == tabs.attachment">
+
+					<div class="container ">
+						<input type="file" class="fileAttachmentInput FileAttachInput" name="image" custom-on-change="fileAttachment"   />
+						<!--onchange="angular.element(this).scope().fileAttach(this.files)"
+                  -->
+						<button class="btn btn-default" ng-click="browseFileAttach()">Upload File</button>
+					</div>
+
+					<table class="table table-bordered userFileAttachTable">
+						<thead>
+						<tr>
+
+							<th>Sr.No</th>
+							<th>FileName </th>
+							<th>Upload Date </th>
+							<th>File Size</th>
+							<th>File</th>
+							<th>Delete</th>
+
+						</tr>
+						</thead>
+						<tbody>
+						<tr ng-repeat="file in files" ng-if="file.isactive=='1'">
+
+							<td>
+								{{$index+1}}
+							</td>
+							<td>{{file.name}}</td>
+							<td>{{file.date}}</td>
+							<td>{{(file.filesize/(1024)) | number:0  }} KB</td>
+
+							<td><i class="fa fa-file"></i></td>
+							<td><span style="padding-left: 20px;" class="fa fa-times" type="button" ng-click="deleteEmplFile(file.id,$index)"></span></td>
+						</tr>
+
+						</tbody>
+					</table>
+				</div>
+				
+				</div>
+			
+		</div>
+	</div>
+
+</div>
+
+
+
+<!-- Enter FileName Modal -->
+<div id="fileNameModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Enter File Name</h4>
+			</div>
+			<div class="modal-body">
+				<input type="text" placeholder="Enter File Name" class="form-control" ng-model="newFileName" style="margin-bottom: 10px">
+				<div style="position: relative;text-align: center;">
+					<!-- <progress style="height: 30px; width: 80%" id="progress" min="0" max="100" value="{{progressbar}}"></progress> -->
+
+					<div class="progress progress-striped">
+						<div ng-style="{'width':progressbar}" aria-valuemax="100" aria-valuemin="0" aria-valuenow="{{progressbar}}" role	="progressbar" class="progress-bar progress-bar-warning">
+							<span class="sr-only">40% Complete (success)</span>
+						</div>
+					</div>
+
+					<span style="position: absolute;left: 0;right: 0;top: 7%;font-weight: 600;font-family: cursive;">{{progressbar}} {{progressbar ? "%" : ''}}</span>
+				</div>
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" ng-click="uploadNewFileAttach(newFileName)">Save</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- Enter FileName Modal -->
+
+
+<!-- Enter FileName Modal -->

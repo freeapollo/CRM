@@ -1,0 +1,45 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: index.html
+
+- url: /css
+  static_dir: css
+ 
+- url: /js
+  static_dir: js
+  
+- url: /Controller
+  static_dir: Controller
+  
+- url: /Directives
+  static_dir: Directives
+
+- url: /Models
+  static_dir: Models
+
+- url: /Service
+  static_dir: Service
+
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /controllers
+  static_dir: controllers
+
+- url: /img
+  static_dir: img
+
+- url: /font-awesome
+  static_dir: font-awesome
+
+- url: /views
+  static_dir: views
+
+- url: /email_templates
+  static_dir: email_templates
+
+  

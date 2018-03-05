@@ -1,0 +1,31 @@
+<div class="container" >
+	<div class="row" style="width:50%;margin-top: 50px;">
+
+
+		<div class="dropdown"  >
+		  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{{'select User'}}
+		  <span class="caret"></span></button>
+		  <ul class="dropdown-menu">
+		    <li ng-repeat="user in UsersList" ng-click="selectDropDownUser(user.name,user.id)">
+		    	<a>{{user.name}}</a>
+		    </li>
+		  </ul>
+		</div>
+
+	<div style="margin-top: 20px;">
+		<input type="text" placeholder="UserName" class="form-control" value="{{selectUser}}">
+	</div>
+
+	<div style="margin-top:20px;">
+		
+		<textarea placeholder="Please Type Something.." class="form-control" cols="5" ng-model="personalMessageTxt"></textarea>
+
+	</div>
+	<div style="text-align: right;margin-top: 20px	">
+		<button class="btn btn-primary" ng-click="sendPersonalMsg(remoteUserId,personalMessageTxt)">Send Message</button>	
+	</div>
+
+	</div>
+</div>
+
+

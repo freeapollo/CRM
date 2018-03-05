@@ -1,0 +1,358 @@
+header{
+    nav{
+        .smallFont{
+            font-size: 12px;
+            .badge{
+                margin-left: 5px;
+                background-color: #ed1c24;
+            }
+        }
+        a{
+            cursor:pointer;
+        }
+    }
+}
+.star {
+    font-size: x-large;
+    display: inline;
+    color: gray;
+}
+.star:last-child {
+    margin-right: 0;
+}
+.star:before {
+    content:'\2605';
+}
+.star.on {
+    color: gold;
+}
+.star.half:after {
+    content:'\2605';
+    color: gold;
+    position: absolute;
+    margin-left: -20px;
+    width: 10px;
+    overflow: hidden;
+}
+
+.userImg{
+    display: flex;
+    border-bottom: none !important;
+}
+.userImg > .userAvatar{
+    display: inline-block;
+}
+.userImg > .userAvatar >img{
+        width: 25px;
+    border-radius:10px;
+    margin-right: 10px;
+}
+.searchAndSortingSection{
+    
+    .SearchBox{
+//                margin: 10px;
+//                display: flex;
+//                padding: 5px 0;
+                display: flex;
+                align-items: center;
+                border-radius: 5px;
+                padding-left: 5px;
+                height: 40px;
+        
+
+            .tagItems{
+                
+                flex: 0;
+                white-space: nowrap;
+				margin-right:2px;
+                display: flex;
+                align-items: center;
+                height: 20px;
+                
+                .removeTagIcon{
+                        margin-left: 8px;
+                        cursor: pointer;
+                    
+                    &:after{
+                            content: "x";
+                            padding: 0px 2px;
+                    }
+                }
+            }   
+        
+            .searchWrapper{
+                
+                width: 100%;
+               .searchBoxInput {
+                    
+                    border: medium none;
+                    font-size: 14px;
+                    margin: 0;
+                    border: 1px solid #e5e6e7;
+                    border-radius: 1px;
+                    color: inherit;
+                    display: block;
+                    padding: 6px 12px;
+                    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+                    width: 100%;
+                    font-size: 14px;
+                    background-color: inherit;
+                }
+                
+//                flex: 1;
+//                display: inline-block;
+                position: relative;
+                
+                .searchBoxInput{
+                    transform: translateY(23%);
+                    border: 0;
+                    outline: none;
+                    font:message-box;
+                }
+                
+                .closeAutoComplete{
+                    right: 0;
+                    display: inline-block;
+                }
+                
+                .autoCompleteContainer{
+                        position: absolute;
+                        border: 1px solid black;
+                        border-top: 0;
+                        top: 42px;
+                        right: 0;
+                        left: -5px;
+                        background-color: white;
+                        z-index: 1;
+                    
+                        .autoCompeleteItem{
+                            padding: 5px 15px;
+                            font-size: 14px;
+                            font-family: 'Source Sans Pro', sans-serif;
+                            font-weight: 100;
+                            cursor: pointer;
+                            &:hover{
+                                background-color: #F1F1F1;
+                                
+                            }    
+                        }
+					
+                }
+            }
+    }
+    .searchByCategories{
+        cursor: pointer;
+    }
+    .searchEmployessTxtBox{
+            height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+    }
+    font-weight: bold;
+   
+    .arrowDown,.arrowUp{
+        font-size: 10px;
+        vertical-align: baseline;
+    }
+}
+
+#peopleTable{
+    padding: 20px 30px;
+    background-color: white;
+    
+    .homeBreadCumb{
+        margin-bottom: 20px;
+        .breadcrumbTitle {
+            font-size: 20px;
+            
+        }  
+        
+        ol {
+                li {
+                    &.active{
+                        font-weight: bold;
+                    }
+                }
+            }
+    }
+    
+    table{
+       table-layout: fixed;
+    }
+    
+    table > thead > tr{
+        cursor: pointer;
+        background-color: #a7b1c2;
+        border-color: #a7b1c2;
+        color: #FFFFFF;    
+        
+        th {
+            white-space: nowrap;
+            background-color: #2f4050;
+        
+            span{
+                float:right;
+            }
+        }  
+    }
+    table > tbody >tr {
+        td{
+            border: 1px solid #e7e7e7;
+            border-bottom: 1px solid #DDDDDD;
+        }
+    }
+}
+
+
+.navbar-header{
+    form{
+        display: inline-block;
+        width:70%;
+        margin: 8px 0;
+        height: 40px;
+        
+        .form-group{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.navbar-static-top{
+    .settings {
+         position: fixed;
+            right: 0;
+            top: 70px;
+            right: -5px;
+            z-index: 9999999999999999;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+    }
+}
+
+.icheckbox_square-green, .iradio_square-green {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url('../../plugins/icheck/green.png') no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_square-green.checked {
+    background-position: -48px 0;
+}
+
+
+#wrapper{
+    .nav-header{
+        padding:10px;
+        .userPicContainer{
+            position:relative;
+            width: 200px;
+            height: 100px;
+            background-color: black;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            &:hover{
+                 .changeUserPhotoBtn{
+                    cursor: pointer;
+                    display:block;
+                    background-color:rgba(51,51,51,0.8);
+                    color:white;
+                    position:absolute;
+                    bottom: 0px;
+                    left:0;
+                    right: 0;
+                    text-align:center;
+                    padding:2px 0px;
+                }
+            }
+            
+            .changeUserPhotoBtn{
+                display:none;
+            }
+           
+        }
+    }
+}
+
+.wordBreakAll {
+    word-break: break-all;
+}
+
+.linkBtn {
+    text-decoration: underline;
+}
+.mr5{
+ margin-right: 5px;   
+}
+
+.fs8px{
+    
+  font-size:8px;
+}
+
+.viewCampaignTable{
+    table > thead > tr {
+        background-color: #a7b1c2;
+        border-color: #a7b1c2;
+        color: #FFFFFF;
+        
+        th{
+            background-color: #2f4050;
+        }
+    }
+}
+
+
+.userPicContainer{
+    position:relative;
+    width:130px;
+    height:140px;    
+    
+    &:hover{
+             .changeUserPhotoBtn{
+                cursor: pointer;
+                display:block;
+                background-color:rgba(51,51,51,0.8);
+                color:white;
+                position:absolute;
+                bottom: 0px;
+                left:0;
+                right: 0;
+                text-align:center;
+                padding:2px 0px;
+            }
+        }
+
+        .changeUserPhotoBtn{
+            display:none;
+        }
+}
+
+.userPicContainer {
+    margin:auto;
+    
+    .profileBackgroundImg {
+        position: relative;
+        height: 130px;
+        width: 130px;
+        background-size: contain;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.fs10px{
+    font-size: 10px;
+}
+.clearboth {
+  clear: both;
+}

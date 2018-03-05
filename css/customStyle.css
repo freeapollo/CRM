@@ -1,0 +1,7 @@
+.navbar-fixed-top, .navbar-static-top {
+	display:flex;
+	align-items: center;
+}
+.navbar-header{
+	flex:1;
+}

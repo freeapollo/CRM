@@ -1,0 +1,61 @@
+/* line 1, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.ibox-content.product-box {
+  position: relative; }
+  /* line 4, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+  .ibox-content.product-box .glyphicon.glyphicon-pencil {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 10px; }
+
+/* line 15, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.group.wrapper .groupContainer {
+  margin: 10px 0; }
+
+/* line 18, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.group.wrapper .createGroupBtn {
+  float: right; }
+
+/* line 22, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.group.wrapper .createGroupForm {
+  margin-bottom: 10px; }
+
+/* line 26, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.group.wrapper .checkIcon {
+  float: right; }
+
+/* line 35, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.groupAddUsers .list-group {
+  max-height: 300px;
+  overflow-y: auto; }
+  /* line 39, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+  .groupAddUsers .list-group li {
+    padding: 5px 15px; }
+    /* line 41, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+    .groupAddUsers .list-group li .btn {
+      margin-bottom: 0; }
+
+/* line 47, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.groupAddUsers searchbar .SearchBox {
+  border: 1px solid #e7eaec;
+  border-top: 0;
+  border-radius: 0; }
+
+/* line 53, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.groupAddUsers .addContactsTxtContainer {
+  padding: 10px; }
+  /* line 56, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+  .groupAddUsers .addContactsTxtContainer .fa.fa-sort-down {
+    float: right; }
+
+/* line 63, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+.groupAddUsers .list-group {
+  margin-top: 10px; }
+  /* line 67, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+  .groupAddUsers .list-group li {
+    cursor: pointer; }
+    /* line 70, C:/wamp64/www/angularphp/CRM.git/trunk/css/groups.scss */
+    .groupAddUsers .list-group li .checkIcon {
+      float: right; }
+
+/*# sourceMappingURL=groups.css.map */

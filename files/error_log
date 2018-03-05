@@ -1,0 +1,64 @@
+[09-Mar-2017 15:51:04 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 9
+[09-Mar-2017 17:11:32 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 9
+[09-Mar-2017 17:18:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 9
+[09-Mar-2017 18:30:25 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:30:53 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:37:48 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:41:42 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:46:13 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:48:19 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:48:54 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:49:39 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:50:37 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 18:55:12 UTC] PHP Notice:  Undefined index: image in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 19:01:22 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 5
+[09-Mar-2017 19:01:22 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 11
+[09-Mar-2017 19:03:47 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 5
+[09-Mar-2017 19:03:47 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 11
+[09-Mar-2017 19:05:50 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 19:05:50 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 6
+[09-Mar-2017 19:05:50 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 12
+[09-Mar-2017 19:06:23 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 19:06:23 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 7
+[09-Mar-2017 19:06:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 13
+[09-Mar-2017 19:07:40 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 19:07:40 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 7
+[09-Mar-2017 19:07:40 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 13
+[09-Mar-2017 19:09:20 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 3
+[09-Mar-2017 19:09:20 UTC] PHP Notice:  Undefined index: fileName in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 7
+[09-Mar-2017 19:09:20 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 13
+[09-Mar-2017 19:09:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 13
+[09-Mar-2017 19:17:42 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 13
+[09-Mar-2017 19:18:48 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 13
+[09-Mar-2017 19:19:57 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 12
+[09-Mar-2017 19:20:53 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/uploadFile.php on line 12
+[09-Mar-2017 19:40:56 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 11
+[09-Mar-2017 19:40:56 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:40:56 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:40:56 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 19:40:56 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 19:43:27 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 11
+[09-Mar-2017 19:43:27 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:43:27 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:43:27 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 19:43:27 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 19:45:30 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 11
+[09-Mar-2017 19:45:30 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:45:30 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:45:30 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 19:45:30 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 19:48:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 11
+[09-Mar-2017 19:48:21 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:48:21 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 19:48:21 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 19:48:21 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 21:45:58 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 11
+[09-Mar-2017 21:45:58 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 21:45:58 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[09-Mar-2017 21:45:58 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[09-Mar-2017 21:45:58 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[10-Mar-2017 12:52:15 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/shashank1990/public_html/CRMV1/files/index.php on line 11
+[10-Mar-2017 12:52:15 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[10-Mar-2017 12:52:15 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 50
+[10-Mar-2017 12:52:15 UTC] PHP Notice:  Undefined variable: msg in /home/shashank1990/public_html/CRMV1/files/index.php on line 54
+[10-Mar-2017 12:52:15 UTC] PHP Notice:  Trying to get property of non-object in /home/shashank1990/public_html/CRMV1/files/index.php on line 54

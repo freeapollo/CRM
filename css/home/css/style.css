@@ -1,0 +1,309 @@
+/* line 3, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+header nav .smallFont {
+  font-size: 12px; }
+  /* line 5, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  header nav .smallFont .badge {
+    margin-left: 5px;
+    background-color: #ed1c24; }
+
+/* line 10, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+header nav a {
+  cursor: pointer; }
+
+/* line 15, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.star {
+  font-size: x-large;
+  display: inline;
+  color: gray; }
+
+/* line 20, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.star:last-child {
+  margin-right: 0; }
+
+/* line 23, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.star:before {
+  content: '\2605'; }
+
+/* line 26, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.star.on {
+  color: gold; }
+
+/* line 29, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.star.half:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 10px;
+  overflow: hidden; }
+
+/* line 38, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.userImg {
+  display: flex;
+  border-bottom: none !important; }
+
+/* line 42, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.userImg > .userAvatar {
+  display: inline-block; }
+
+/* line 45, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.userImg > .userAvatar > img {
+  width: 25px;
+  border-radius: 10px;
+  margin-right: 10px; }
+
+/* line 50, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.searchAndSortingSection {
+  font-weight: bold; }
+  /* line 52, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .searchAndSortingSection .SearchBox {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    height: 40px; }
+    /* line 63, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+    .searchAndSortingSection .SearchBox .tagItems {
+      flex: 0;
+      white-space: nowrap;
+      margin-right: 2px;
+      display: flex;
+      align-items: center;
+      height: 20px; }
+      /* line 72, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+      .searchAndSortingSection .SearchBox .tagItems .removeTagIcon {
+        margin-left: 8px;
+        cursor: pointer; }
+        /* line 76, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+        .searchAndSortingSection .SearchBox .tagItems .removeTagIcon:after {
+          content: "x";
+          padding: 0px 2px; }
+    /* line 83, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+    .searchAndSortingSection .SearchBox .searchWrapper {
+      width: 100%;
+      position: relative; }
+      /* line 86, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+      .searchAndSortingSection .SearchBox .searchWrapper .searchBoxInput {
+        border: medium none;
+        font-size: 14px;
+        margin: 0;
+        border: 1px solid #e5e6e7;
+        border-radius: 1px;
+        color: inherit;
+        display: block;
+        padding: 6px 12px;
+        transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+        width: 100%;
+        font-size: 14px;
+        background-color: inherit; }
+      /* line 106, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+      .searchAndSortingSection .SearchBox .searchWrapper .searchBoxInput {
+        transform: translateY(23%);
+        border: 0;
+        outline: none;
+        font: message-box; }
+      /* line 113, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+      .searchAndSortingSection .SearchBox .searchWrapper .closeAutoComplete {
+        right: 0;
+        display: inline-block; }
+      /* line 118, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+      .searchAndSortingSection .SearchBox .searchWrapper .autoCompleteContainer {
+        position: absolute;
+        border: 1px solid black;
+        border-top: 0;
+        top: 42px;
+        right: 0;
+        left: -5px;
+        background-color: white;
+        z-index: 1; }
+        /* line 128, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+        .searchAndSortingSection .SearchBox .searchWrapper .autoCompleteContainer .autoCompeleteItem {
+          padding: 5px 15px;
+          font-size: 14px;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: 100;
+          cursor: pointer; }
+          /* line 134, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+          .searchAndSortingSection .SearchBox .searchWrapper .autoCompleteContainer .autoCompeleteItem:hover {
+            background-color: #F1F1F1; }
+  /* line 143, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .searchAndSortingSection .searchByCategories {
+    cursor: pointer; }
+  /* line 146, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .searchAndSortingSection .searchEmployessTxtBox {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px; }
+  /* line 155, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .searchAndSortingSection .arrowDown, .searchAndSortingSection .arrowUp {
+    font-size: 10px;
+    vertical-align: baseline; }
+
+/* line 161, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+#peopleTable {
+  padding: 20px 30px;
+  background-color: white; }
+  /* line 165, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  #peopleTable .homeBreadCumb {
+    margin-bottom: 20px; }
+    /* line 167, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+    #peopleTable .homeBreadCumb .breadcrumbTitle {
+      font-size: 20px; }
+    /* line 174, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+    #peopleTable .homeBreadCumb ol li.active {
+      font-weight: bold; }
+  /* line 181, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  #peopleTable table {
+    table-layout: fixed; }
+  /* line 185, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  #peopleTable table > thead > tr {
+    cursor: pointer;
+    background-color: #a7b1c2;
+    border-color: #a7b1c2;
+    color: #FFFFFF; }
+    /* line 191, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+    #peopleTable table > thead > tr th {
+      white-space: nowrap;
+      background-color: #2f4050; }
+      /* line 195, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+      #peopleTable table > thead > tr th span {
+        float: right; }
+  /* line 201, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  #peopleTable table > tbody > tr td {
+    border: 1px solid #e7e7e7;
+    border-bottom: 1px solid #DDDDDD; }
+
+/* line 210, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.navbar-header form {
+  display: inline-block;
+  width: 70%;
+  margin: 8px 0;
+  height: 40px; }
+  /* line 216, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .navbar-header form .form-group {
+    margin-bottom: 0; }
+
+/* line 223, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.navbar-static-top .settings {
+  position: fixed;
+  right: 0;
+  top: 70px;
+  right: -5px;
+  z-index: 9999999999999999;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; }
+
+/* line 234, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.icheckbox_square-green, .iradio_square-green {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  background: url("../../plugins/icheck/green.png") no-repeat;
+  border: none;
+  cursor: pointer; }
+
+/* line 246, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.icheckbox_square-green.checked {
+  background-position: -48px 0; }
+
+/* line 252, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+#wrapper .nav-header {
+  padding: 10px; }
+  /* line 254, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  #wrapper .nav-header .userPicContainer {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+    /* line 263, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+    #wrapper .nav-header .userPicContainer:hover .changeUserPhotoBtn {
+      cursor: pointer;
+      display: block;
+      background-color: rgba(51, 51, 51, 0.8);
+      color: white;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 2px 0px; }
+    /* line 277, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+    #wrapper .nav-header .userPicContainer .changeUserPhotoBtn {
+      display: none; }
+
+/* line 285, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.wordBreakAll {
+  word-break: break-all; }
+
+/* line 289, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.linkBtn {
+  text-decoration: underline; }
+
+/* line 292, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.mr5 {
+  margin-right: 5px; }
+
+/* line 296, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.fs8px {
+  font-size: 8px; }
+
+/* line 302, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.viewCampaignTable table > thead > tr {
+  background-color: #a7b1c2;
+  border-color: #a7b1c2;
+  color: #FFFFFF; }
+  /* line 307, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .viewCampaignTable table > thead > tr th {
+    background-color: #2f4050; }
+
+/* line 314, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.userPicContainer {
+  position: relative;
+  width: 130px;
+  height: 140px; }
+  /* line 320, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .userPicContainer:hover .changeUserPhotoBtn {
+    cursor: pointer;
+    display: block;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 2px 0px; }
+  /* line 334, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .userPicContainer .changeUserPhotoBtn {
+    display: none; }
+
+/* line 339, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.userPicContainer {
+  margin: auto; }
+  /* line 342, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+  .userPicContainer .profileBackgroundImg {
+    position: relative;
+    height: 130px;
+    width: 130px;
+    background-size: contain;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center; }
+
+/* line 353, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.fs10px {
+  font-size: 10px; }
+
+/* line 356, C:/wamp64/www/angularphp/CRM.git/trunk/css/home/css/style.scss */
+.clearboth {
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */

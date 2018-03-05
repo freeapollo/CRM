@@ -1,0 +1,101 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    
+    <div class="sidebar-collapse"  ng-init="isExpand=false">
+
+        <ul side-navigation class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+
+               <div class="profile-element" uib-dropdown>
+                   <!--  <img alt="image" class="img-circle" src="img/profile_small.jpg"/> -->
+
+                   <div style="text-align: center;margin-bottom: 20px; padding-bottom:10px;">
+                       <img src="./img/raffia-logo.jpg" style="max-width: 100%;max-height: 130px"/>
+
+                   </div>
+
+
+                </div>
+                <div class="logo-element">
+                    IN+
+                </div>
+            </li>
+
+            <li ui-sref-active="active">
+                <a ui-sref="dashboards.home"><i class="fa fa-book"></i> <span class="nav-label">{{ 'Contacts' | translate }}</span> </a>
+            </li>
+
+
+
+             <li ui-sref-active="active">
+                <a ui-sref="pages.groups"><i class="fa fa-group"></i> <span class="nav-label">{{ 'Groups' | translate }}</span> </a>
+            </li>
+
+
+            <li ui-sref-active="active">
+                <a ui-sref="dashboards.mail"><i class="fa fa-envelope"></i> <span class="nav-label">{{ 'Campaigns' | translate }}</span></a>
+            </li>
+
+            <li ng-class="{active: ($state.includes('dashboards') && isExpand == true) }" ng-click="isExpand=!isExpand">
+                <a href="index.html"><i class="fa fa-plus-square-o"></i> <span class="nav-label">{{ 'Add New' | translate }}</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse" ng-class="{in: ($state.includes('dashboards') && isExpand == true) }">
+
+                    <li ui-sref-active="active" >
+                        <a ui-sref="dashboards.emplProfile"><i class="fa fa-user"></i> <span class="nav-label">{{ 'Profile' | translate }}</span></a>
+                    </li>
+
+                    <li ui-sref-active="active">
+                        <a  ui-sref="dashboards.insertCompanyProfile"><i class="fa fa-building-o"></i> <span class="nav-label">{{ 'Company' | translate }}</span></a>
+                    </li>
+
+                    <!--<li ui-sref-active="active"><a ui-sref="dashboards.dashboard_3">{{ 'DASHBOARD' | translate }} v.3</a></li>-->
+                    <!--<li ui-sref-active="active"><a ui-sref="dashboards.dashboard_4_1">{{ 'DASHBOARD' | translate }} v.4</a></li>-->
+                    <!--<li ui-sref-active="active"><a ui-sref="dashboards.dashboard_5">{{ 'DASHBOARD' | translate }} v.5 <span class="label label-primary pull-right">NEW</span></a></li> &ndash;&gt;-->
+                </ul>
+            </li>
+
+
+
+
+
+            
+           <!--   <li ui-sref-active="active">
+                <a ui-sref="dashboards.profile"><i class="fa fa-area-chart"></i> <span class="nav-label">{{ 'Profile' | translate }}</span></a>
+            </li> -->
+
+            <!--<li ui-sref-active="active">-->
+                <!--<a ><i class="fa fa-wechat"></i> <span class="nav-label">{{ 'Calender' | translate }}</span></a>-->
+            <!--</li>-->
+          <!--   
+            <li ui-sref-active="active">
+                <a ><i class="fa fa-calendar-o"></i> <span class="nav-label">{{ 'Events' | translate }}</span></a>
+            </li> -->
+
+            <!--<li ui-sref-active="active">-->
+                <!--<a ><i class="fa fa-file-photo-o"></i> <span class="nav-label">{{ 'Files' | translate }}</span></a>-->
+            <!--</li>-->
+
+            <!--<li ui-sref-active="active">-->
+                <!--<a ><i class="fa fa-area-chart"></i> <span class="nav-label">{{ 'Analytics' | translate }}</span></a>-->
+            <!--</li>-->
+
+
+
+        </ul>
+
+    </div>
+        <div class="btn-group dropup" style="position: fixed;
+    bottom: 10px;
+    left: 0;">
+        <a ui-sref="dashboards.newprofile" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-cog"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <!--<ul class="dropdown-menu" role="menu">-->
+            <!--<li><a href="#" id="new_chat"><span class="glyphicon glyphicon-plus"></span> Novo</a></li>-->
+            <!--<li><a href="#"><span class="glyphicon glyphicon-list"></span> Ver outras</a></li>-->
+            <!--<li><a href="#"><span class="glyphicon glyphicon-remove"></span> Fechar Tudo</a></li>-->
+            <!--<li class="divider"></li>-->
+            <!--<li><a href="#"><span class="glyphicon glyphicon-eye-close"></span> Invisivel</a></li>-->
+        <!--</ul>-->
+    </div>
+</nav>

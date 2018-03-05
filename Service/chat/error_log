@@ -1,0 +1,634 @@
+[27-Mar-2017 18:59:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:00:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:00:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:00:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:00:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:02:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:02:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:02:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:03:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 14
+[27-Mar-2017 19:04:01 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:04:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:04:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 10
+[27-Mar-2017 19:04:29 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:04:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:04:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 10
+[27-Mar-2017 19:05:21 UTC] PHP Notice:  Undefined variable: getAllNewChataSql in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:05:21 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:05:23 UTC] PHP Notice:  Undefined variable: getAllNewChataSql in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:05:23 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:05:23 UTC] PHP Notice:  Undefined variable: getAllNewChataSql in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:05:23 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:05:23 UTC] PHP Notice:  Undefined variable: getAllNewChataSql in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 5
+[27-Mar-2017 19:05:23 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:05:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:06:27 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:06:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:06:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:13:23 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:13:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:13:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:13:54 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:13:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:13:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:14:25 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:14:26 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:14:27 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:14:27 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:14:27 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:14:28 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:14:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:15:32 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:15:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:15:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:16:25 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:16:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:16:25 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 7
+[27-Mar-2017 19:16:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:16:26 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:16:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:16:26 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 7
+[27-Mar-2017 19:16:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:16:27 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:16:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:16:27 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 7
+[27-Mar-2017 19:16:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 11
+[27-Mar-2017 19:17:24 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:17:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:17:24 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 8
+[27-Mar-2017 19:18:16 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:16 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 8
+[27-Mar-2017 19:18:18 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:18 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 8
+[27-Mar-2017 19:18:18 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:18 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 8
+[27-Mar-2017 19:18:18 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 6
+[27-Mar-2017 19:18:18 UTC] PHP Notice:  Undefined variable: conn in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 8
+[27-Mar-2017 19:28:47 UTC] PHP Notice:  Undefined index: userId in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 8
+[27-Mar-2017 20:39:36 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:39:40 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:41:41 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:41:41 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:41:41 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:41:41 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:26 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:26 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:26 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:26 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:28 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:28 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:28 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[27-Mar-2017 20:42:28 UTC] PHP Notice:  Undefined index: name in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 36
+[07-Apr-2017 14:36:44 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 28
+[07-Apr-2017 14:37:46 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 28
+[07-Apr-2017 14:39:35 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 30
+[07-Apr-2017 14:40:19 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 30
+[07-Apr-2017 14:40:44 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 30
+[07-Apr-2017 14:40:47 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 30
+[07-Apr-2017 14:40:47 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 30
+[07-Apr-2017 14:42:56 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 30
+[07-Apr-2017 14:46:02 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:46:04 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:46:45 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:46:45 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:46:46 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:46:46 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:46:46 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:46:46 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:46:46 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:46:46 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:47:02 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:47:02 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:47:03 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:47:34 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 24
+[07-Apr-2017 14:47:34 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:47:35 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 24
+[07-Apr-2017 14:47:35 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:47:35 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 24
+[07-Apr-2017 14:47:35 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:47:35 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 24
+[07-Apr-2017 14:47:35 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:49:02 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 24
+[07-Apr-2017 14:49:02 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:49:22 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:49:22 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 28
+[07-Apr-2017 14:49:23 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:49:23 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 28
+[07-Apr-2017 14:49:23 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:49:23 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 28
+[07-Apr-2017 14:51:11 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:51:14 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 25
+[07-Apr-2017 14:51:42 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:51:43 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:51:43 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:51:43 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:55:30 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:55:54 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:56:48 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 27
+[07-Apr-2017 14:57:52 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:57:53 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:57:53 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:58:58 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:58:59 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:59:20 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:59:21 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:59:24 UTC] PHP Notice:  Undefined variable: responseArr in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 14:59:54 UTC] PHP Notice:  Array to string conversion in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 26
+[07-Apr-2017 18:49:29 UTC] PHP Notice:  Undefined index: userId in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 8
+[07-Apr-2017 18:51:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 18:53:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 18:55:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:05:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:07:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:08:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:08:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:12:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:13:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:23:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:24:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[07-Apr-2017 19:25:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 25
+[08-Apr-2017 11:17:23 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:17:26 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:23:20 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:23:22 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:24:31 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:24:36 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:27:04 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:27:08 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:31:58 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:34:31 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:34:32 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:35:21 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:38:59 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:39:02 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:39:07 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:39:13 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:39:39 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[08-Apr-2017 11:40:11 UTC] PHP Parse error:  syntax error, unexpected '';' (T_ENCAPSED_AND_WHITESPACE) in /home/shashank1990/public_html/CRMV1/Service/chat/messageRead.php on line 11
+[11-Apr-2017 17:10:26 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[11-Apr-2017 17:10:26 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 33
+[11-Apr-2017 17:10:26 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 37
+[11-Apr-2017 17:10:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[11-Apr-2017 17:10:31 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[11-Apr-2017 17:10:31 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 33
+[11-Apr-2017 17:10:31 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 37
+[11-Apr-2017 17:10:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[11-Apr-2017 17:10:36 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[11-Apr-2017 17:10:36 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 33
+[11-Apr-2017 17:10:36 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 37
+[11-Apr-2017 17:10:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[11-Apr-2017 19:40:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[11-Apr-2017 19:40:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[11-Apr-2017 19:40:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[11-Apr-2017 19:40:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[17-Apr-2017 18:21:24 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[17-Apr-2017 18:21:24 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 33
+[17-Apr-2017 18:21:24 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 37
+[17-Apr-2017 18:21:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[17-Apr-2017 18:21:30 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[17-Apr-2017 18:21:30 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 33
+[17-Apr-2017 18:21:30 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 37
+[17-Apr-2017 18:21:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[18-Apr-2017 18:33:09 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[18-Apr-2017 18:33:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 33
+[18-Apr-2017 18:33:09 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 37
+[18-Apr-2017 18:33:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[18-Apr-2017 18:48:24 UTC] PHP Notice:  Undefined index: profilePic in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 52
+[18-Apr-2017 18:48:24 UTC] PHP Notice:  Undefined index: profilePic in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 52
+[18-Apr-2017 18:48:24 UTC] PHP Notice:  Undefined index: profilePic in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 52
+[19-Apr-2017 19:17:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:17:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:18:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:18:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:18:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:18:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:18:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:18:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:18:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:18:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:19:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:20:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:20:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:20:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:20:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:21:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:22:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:22:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:23:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:24:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:24:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 38
+[19-Apr-2017 19:25:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:35:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:35:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:44:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 19:44:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:19:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:19:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:22:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:24:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:26:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:27:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:28:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:36:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:39:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:39:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:40:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:41:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:42:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:42:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:43:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:44:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:47:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:49:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:55:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:58:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 20:59:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:00:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:01:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:02:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:03:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:03:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:04:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:06:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:09:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:10:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:12:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:14:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:16:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:23:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:24:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:27:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:27:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:27:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:29:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:31:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:32:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:32:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:38:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:45:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:49:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:50:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 21:52:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:11:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:13:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:15:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:24:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:24:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:26:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:28:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:31:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:34:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:36:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:37:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:40:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[19-Apr-2017 22:40:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:05:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:06:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:07:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:07:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:14:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:14:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:16:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 13:59:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 14:07:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 14:19:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 15:16:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 15:16:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 15:22:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 15:22:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 15:23:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 15:23:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 15:23:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/allLatestMsg.php on line 38
+[20-Apr-2017 19:30:23 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 52
+[20-Apr-2017 19:30:28 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 52
+[20-Apr-2017 19:51:11 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 52
+[20-Apr-2017 20:21:11 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 52
+[20-Apr-2017 20:21:15 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 52
+[20-Apr-2017 21:26:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:26:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 21:27:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 13
+[20-Apr-2017 22:17:45 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:17:50 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:17:55 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:00 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:05 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:10 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:15 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:20 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:27 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:32 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:37 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:42 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:47 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:52 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:18:57 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:19:02 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:19:07 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:19:12 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 22:19:22 UTC] PHP Notice:  Undefined variable: userRow in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 58
+[20-Apr-2017 23:14:46 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:14:46 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:14:46 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:14:46 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:14:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:14:46 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:14:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:14:49 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:14:49 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:14:49 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:14:49 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:14:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:14:49 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:14:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:14:51 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:14:51 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:14:51 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:14:51 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:14:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:14:51 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:14:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:14:55 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:14:55 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:14:55 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:14:55 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:14:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:14:55 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:14:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:14:56 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:14:56 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:14:56 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:14:56 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:14:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:14:56 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:14:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:14:59 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:14:59 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:14:59 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:14:59 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:14:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:14:59 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:14:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:15:01 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:15:01 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:15:01 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:15:01 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:15:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:15:01 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:15:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:15:05 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:15:05 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:15:05 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:15:05 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:15:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:15:05 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:15:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[20-Apr-2017 23:15:06 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[20-Apr-2017 23:15:06 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[20-Apr-2017 23:15:06 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[20-Apr-2017 23:15:06 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[20-Apr-2017 23:15:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[20-Apr-2017 23:15:06 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[20-Apr-2017 23:15:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[24-Apr-2017 17:30:15 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[24-Apr-2017 17:30:15 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[24-Apr-2017 17:30:15 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[24-Apr-2017 17:30:15 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[24-Apr-2017 17:30:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[24-Apr-2017 17:30:15 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[24-Apr-2017 17:30:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[24-Apr-2017 17:30:17 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[24-Apr-2017 17:30:17 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[24-Apr-2017 17:30:17 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[24-Apr-2017 17:30:17 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[24-Apr-2017 17:30:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[24-Apr-2017 17:30:17 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[24-Apr-2017 17:30:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[24-Apr-2017 17:30:20 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[24-Apr-2017 17:30:20 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[24-Apr-2017 17:30:20 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[24-Apr-2017 17:30:20 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[24-Apr-2017 17:30:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[24-Apr-2017 17:30:20 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[24-Apr-2017 17:30:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[24-Apr-2017 17:30:22 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[24-Apr-2017 17:30:22 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[24-Apr-2017 17:30:22 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[24-Apr-2017 17:30:22 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[24-Apr-2017 17:30:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[24-Apr-2017 17:30:22 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[24-Apr-2017 17:30:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[02-May-2017 17:53:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[02-May-2017 17:53:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[02-May-2017 17:53:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[02-May-2017 17:53:25 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[02-May-2017 17:53:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[02-May-2017 17:53:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[02-May-2017 17:53:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[02-May-2017 17:53:30 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[02-May-2017 17:53:30 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[02-May-2017 17:53:30 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[02-May-2017 17:53:30 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[02-May-2017 17:53:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[02-May-2017 17:53:30 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[02-May-2017 17:53:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[04-May-2017 13:11:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[04-May-2017 13:11:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[01-Jun-2017 14:18:15 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[01-Jun-2017 14:18:15 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[01-Jun-2017 14:18:15 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[01-Jun-2017 14:18:15 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[01-Jun-2017 14:18:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[01-Jun-2017 14:18:15 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[01-Jun-2017 14:18:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[01-Jun-2017 14:18:16 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[01-Jun-2017 14:18:16 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[01-Jun-2017 14:18:16 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[01-Jun-2017 14:18:16 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[01-Jun-2017 14:18:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[01-Jun-2017 14:18:16 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[01-Jun-2017 14:18:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[01-Jun-2017 14:18:19 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[01-Jun-2017 14:18:19 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[01-Jun-2017 14:18:19 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[01-Jun-2017 14:18:19 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[01-Jun-2017 14:18:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[01-Jun-2017 14:18:19 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[01-Jun-2017 14:18:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[01-Jun-2017 14:18:21 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[01-Jun-2017 14:18:21 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[01-Jun-2017 14:18:21 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[01-Jun-2017 14:18:21 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[01-Jun-2017 14:18:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[01-Jun-2017 14:18:21 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[01-Jun-2017 14:18:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[01-Jun-2017 14:18:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[01-Jun-2017 14:18:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[01-Jun-2017 14:18:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[01-Jun-2017 14:18:25 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[01-Jun-2017 14:18:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[01-Jun-2017 14:18:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[01-Jun-2017 14:18:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[05-Jun-2017 14:58:46 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[05-Jun-2017 14:58:46 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[05-Jun-2017 14:58:46 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[05-Jun-2017 14:58:46 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[05-Jun-2017 14:58:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[05-Jun-2017 14:58:46 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[05-Jun-2017 14:58:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[05-Jun-2017 14:58:50 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[05-Jun-2017 14:58:50 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[05-Jun-2017 14:58:50 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[05-Jun-2017 14:58:50 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[05-Jun-2017 14:58:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[05-Jun-2017 14:58:50 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[05-Jun-2017 14:58:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[12-Jun-2017 14:45:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[12-Jun-2017 14:45:44 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[12-Jun-2017 14:45:44 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[12-Jun-2017 14:45:44 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[12-Jun-2017 14:45:44 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[12-Jun-2017 14:45:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[12-Jun-2017 14:45:44 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[12-Jun-2017 14:45:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80
+[12-Jun-2017 14:45:45 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 3
+[12-Jun-2017 14:45:45 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 12
+[12-Jun-2017 14:45:45 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 39
+[12-Jun-2017 14:45:45 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 43
+[12-Jun-2017 14:45:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 44
+[12-Jun-2017 14:45:45 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 78
+[12-Jun-2017 14:45:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shashank1990/public_html/CRMV1/Service/chat/newChatDetails.php on line 80

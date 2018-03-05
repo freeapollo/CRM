@@ -1,0 +1,197 @@
+<div class="emplInsertContainer">
+    <div class="row" style="background-color: white;">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Add Users</h5>
+
+                <div ibox-tools></div>
+            </div>
+            
+            <div class="row userImageContainer" style="padding-left: 20px;">
+                <div class="col-lg-2">
+                    <div style="margin-bottom: 20px;" class="userPicContainer">
+                        <div class="profileBackgroundImg" ng-style="{'background-image':'url(' + imgsrc + ')'}" >
+
+                            <div class="changeUserPhotoBtn" style="position: absolute; bottom: 0" ng-click="browseEmplProfilePicAttach()"><i class="fa fa-camera"></i>Change Photo</div>
+                            <!--<input type="file" class="fileUploadInput" name="image" onchange="angular.element(this).scope().fileSelected(this.files)" ng-show="false" />-->
+                        </div>
+                    </div>
+                    <input type="file" class="emplInsertProfilePic" name="image" custom-on-change="attachEmplProfilePic" ng-show="false"   />
+                 
+                    <div class="changeUserPhotoBtn" style="width: 99px; text-align: center;position: absolute; bottom: 15px;" ng-click="browseEmplProfilePicAttach()"><i class="fa fa-camera"></i>Change Pic</div>
+                    <!-- <button class="btn btn-default" ng-click="browseEmplProfilePicAttach()">Upload File</button>  -->
+                </div>
+            </div>
+
+            <div class="ibox-content col-lg-6" style="clear: none;">
+                <form class="form-horizontal">
+                    
+                    <div class="form-group"><label class="col-lg-2 control-label">Name <i class="fa fa-asterisk fs8px"></i></label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Name" class="form-control" ng-model="emplProfileInfo.name"> 
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Email <i class="fa fa-asterisk fs8px"></i></label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Email" class="form-control" ng-model="emplProfileInfo.email"> 
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Title</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Title" class="form-control" ng-model="emplProfileInfo.title">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Industry</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Industry" class="form-control" ng-model="emplProfileInfo.industry">
+                        </div>
+                    </div>
+                
+                    <div class="form-group"><label class="col-lg-2 control-label">Location</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Location" class="form-control" ng-model="emplProfileInfo.location">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Ratings</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Ratings" class="form-control" ng-model="emplProfileInfo.rating">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Job Role</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Job Role" class="form-control" ng-model="emplProfileInfo.jobRole">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Phone No<i class="fa fa-asterisk fs8px"></i></label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Phone No" class="form-control" ng-model="emplProfileInfo.phone">
+                        </div>
+                    </div> 
+
+                    <div class="form-group"><label class="col-lg-2 control-label">skype</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Twitter" class="form-control" ng-model="emplProfileInfo.skype">
+                        </div>
+                    </div>                   
+                </form>
+            </div>
+
+             <div class="ibox-content col-lg-6" style="clear: none;">
+                <form class="form-horizontal">
+                    
+                    <div class="form-group"><label class="col-lg-2 control-label" style="white-space: nowrap">Company <i class="fa fa-asterisk fs8px"></i></label>
+                        <div class="col-lg-10">
+                            <select class="form-control" ng-model="emplProfileInfo.company">
+                                <option ng-repeat="company in companies" value="{{company.id}}">{{company.name}}</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Age</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Age" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Gender </label>
+                        <div class="col-lg-10">
+                            <select class="form-control" ng-model="emplProfileInfo.gender">
+                                <option></option>
+                                <option  value="Male">Male</option>
+                                <option  value="Female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Office Contact No.</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Office Contact No" class="form-control" ng-model="emplProfileInfo.officePhone">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">LinkedIn</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="LinkedIn" class="form-control" ng-model="emplProfileInfo.linkedin">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Twitter</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Twitter" class="form-control" ng-model="emplProfileInfo.twitter">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Facebook</label>
+                        <div class="col-lg-10">
+                            <input type="text" placeholder="Facebook" class="form-control" ng-model="emplProfileInfo.facebook">
+                        </div>
+                    </div>
+
+                    <div class="form-group"><label class="col-lg-2 control-label">Notes</label>
+                        <div class="col-lg-10">
+                            <textarea type="text" cols="4" placeholder="Notes" class="form-control" ng-model="emplProfileInfo.notes"></textarea>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+
+        </div>
+
+
+            
+    </div>
+
+<style>
+    .changeUserPhotoBtn {
+        display: none;
+        background-color: black;
+    }
+
+
+</style>
+
+    <div class="row-fluid" style="padding-left: 90px;padding-bottom: 50px;background-color: white">
+        <button type="button" class="btn btn-primary" ng-click="saveEmpl()">Save Employee</button>
+    </div>
+</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="emplLoadingModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Data Uploading..</h4>
+        </div>
+        <div class="modal-body">
+          <p ng-class="{'alert alert-success':!hasError,'alert alert-danger':hasError}">{{errorMsg}}</p>
+          <p > <div class="spiner-example" ng-hide="hidespinner" >
+                <div class="sk-spinner sk-spinner-wave">
+                    <div class="sk-rect1"></div>
+                    <div class="sk-rect2"></div>
+                    <div class="sk-rect3"></div>
+                    <div class="sk-rect4"></div>
+                    <div class="sk-rect5"></div>
+                </div>
+            </div>
+            </p>
+
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        </div>
+      </div>
+      
+    </div>
+  </div>
+

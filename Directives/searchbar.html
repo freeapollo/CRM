@@ -1,0 +1,38 @@
+<form role="search"  method="post" action="views/search_results.html">
+                <div class="form-group">
+                <div class="searchAndSortingSection">
+        
+                    <div class="SearchBox">
+                      <!-- custom search -->
+
+                    <span ng-if="false" ng-repeat="tag in tagSearchedItems track by $index" class="tagItems label label-info">
+                        {{tag.searchItem}}
+
+                        <span data-role="remove" class="removeTagIcon" ng-click=deleteSearchedTag(tag,$index)></span>
+                    </span>
+
+                        <div class="searchWrapper">    
+                        <input style="background-color: inherit;width: 100%;" ng-change="searchapi(searchtext)"  ng-model="searchtext" placeholder="Search" class="searchBoxInput" />
+                            <div class="closeAutoComplete"></div>
+                            <div ng-if="showautocomplete" class="autoCompleteContainer">
+                                <div ng-repeat="list in searchlist track by $index" class="autoCompeleteItem">
+
+                                    <div ng-click="listclick({emplName:list.name,emplId:list.id});searchtext=''">
+                                        <span>{{list.name}}
+                                        </span> 
+                                       <!--  <span ng-style="list.foundIn.split(',')[0] =='title' && {'font-weight':'bold'}">{{list.title}}</span>
+                                        <span ng-style="list.foundIn.split(',')[0] =='industry' && {'font-weight':'bold'}">{{list.industry}}</span>
+                                        <span ng-style="list.foundIn.split(',')[0] =='location' && {'font-weight':'bold'}">{{list.location}}</span>
+                                        <span ng-style="list.foundIn.split(',')[0] =='company' && {'font-weight':'bold'}">{{list.Company.name}}</span>
+ -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    </div>
+                    
+                   <!-- <input type="text" placeholder="{{ 'SEARCH' | translate }}" class="form-control" name="top-search" id="top-search">-->
+                </div>
+            </form>

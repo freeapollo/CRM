@@ -1,0 +1,21 @@
+/* line 2, C:/wamp64/www/angularphp/template/CRMRepo/CRM.git/trunk/css/mail.scss */
+.mailContainer .addCampaignBtnBlock {
+  margin: 20px 0; }
+
+/* line 6, C:/wamp64/www/angularphp/template/CRMRepo/CRM.git/trunk/css/mail.scss */
+.mailContainer .viewCampaignTable table {
+  table-layout: fixed; }
+  /* line 10, C:/wamp64/www/angularphp/template/CRMRepo/CRM.git/trunk/css/mail.scss */
+  .mailContainer .viewCampaignTable table thead tr th {
+    font-weight: bold; }
+
+/* line 22, C:/wamp64/www/angularphp/template/CRMRepo/CRM.git/trunk/css/mail.scss */
+.mailContainer #addCampaignModal .addCampaignModalBody input, .mailContainer #addCampaignModal .addCampaignModalBody select, .mailContainer #addCampaignModal .addCampaignModalBody textarea, .mailContainer #addCampaignModal .addCampaignModalBody button, .mailContainer #sendSMSModal .addCampaignModalBody input, .mailContainer #sendSMSModal .addCampaignModalBody select, .mailContainer #sendSMSModal .addCampaignModalBody textarea, .mailContainer #sendSMSModal .addCampaignModalBody button {
+  margin-bottom: 10px; }
+
+/* line 25, C:/wamp64/www/angularphp/template/CRMRepo/CRM.git/trunk/css/mail.scss */
+.mailContainer #addCampaignModal .addCampaignModalBody select, .mailContainer #sendSMSModal .addCampaignModalBody select {
+  width: 100%;
+  padding: 10px; }
+
+/*# sourceMappingURL=mail.css.map */

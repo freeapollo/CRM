@@ -1,0 +1,130 @@
+<div class="group wrapper wrapper-content animated fadeInRight" style="position: relative;">
+    <div class="container groupContainer">
+      <button class="btn btn-primary"  data-toggle="modal" data-target="#groupModal">Add Group</button>    
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-3 pointer" ng-repeat="group in groups.Groups track by $index" ng-click="editGroup($index)">
+            <div class="ibox">
+                <div class="ibox-content product-box" data-toggle="modal" data-target="#addEmplmModal" >
+                <span class="glyphicon glyphicon-pencil"></span>
+                    <div class="product-imitation" style="background-image:url('./img/groupIcon.png');    background-position: center center;
+                        background-size: cover;">
+                        
+                    </div>
+                    <div class="product-desc">
+                                
+                        <a  class="product-name"> {{group.name}}</a>        
+                        <small class="text-muted">created by {{group.admin}}</small>
+                        
+
+
+
+                        <div class="small m-t-xs">
+                           {{group.details}}
+                        </div>
+                        <div class="m-t text-righ">
+
+                            <a  class="btn btn-xs btn-outline btn-primary"> <i class="glyphicon glyphicon-user"></i> {{group.Members.length}} contacts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+ 
+    </div>
+
+
+    <!--create group Modal -->
+    <div id="groupModal" class="modal fade groupAddUsers" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Create Group</h4>
+          </div>
+          <div class="modal-body">
+
+           <div class="row"> 
+            <div class="col-sm-10 createGroupForm">
+
+                  <form role="form" class="ng-pristine ng-valid">
+                      <div class="form-group">
+                          <input type="text" ng-model="groupName" placeholder="Group Name" class="form-control">
+                      </div>
+                      
+                      <div class="form-group">
+                          <input type="text" placeholder="group Detail" ng-model="groupDetail" class="form-control">
+                      </div>
+                      
+                      
+                  </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+             <button class="btn btn-primary createGroupBtn" ng-click="createGroup(groupName,groupDetail)" type="button"  data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;Create Group</button>
+                     
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--create group Modal -->
+
+
+<!--Add User Modal -->
+<div id="addEmplmModal" class="modal fade groupAddUsers" role="dialog" >
+  <div class="modal-dialog">
+In Modal{{users}}
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add Users</h4>
+      </div>
+      <div class="modal-body">
+
+
+      <div class="ibox float-e-margins">
+          <div class="btn-primary addContactsTxtContainer">
+          Adding Contacts to groups
+          <i class="fa fa-sort-down" />
+        </div>
+        <searchbar searchlist="emplNames" searchtext="emplName" searchapi="searchEmpl" showautocomplete="showautocomplete"  listclick="addEmpl(emplName,emplId)"></searchbar>
+     <!--    <input class="form-control" type="text" placeholder="start typing name..." ng-model="emplName">
+      -->  <ul class="list-group" >
+
+          <li class="list-group-item" ng-repeat="empl in groups.Groups[groupIndex].Members">
+
+              <div style="display: flex;align-items: center;">
+              <div style="flex:1">{{empl.name}}{{empl.isFound}}</div>
+
+              <span style="float: right" type="button" class="fa fa-times" ng-click="removeEmplFromGroup(empl.id)"></span>      
+              </div>
+
+          </li>
+          
+        </ul>                
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" ng-click="saveGroupEmpl()">Save</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+

@@ -1,0 +1,156 @@
+<div class="mailContainer">
+	
+	<div class="addCampaignBtnBlock">
+		<button class="btn btn-default"  data-toggle="modal" data-target="#addCampaignModal">Add Campaign</button>
+		<button class="btn btn-default"  data-toggle="modal" data-target="#sendSMSModal">Send SMS</button>
+		
+		
+	</div>
+
+	<div class="viewCampaignTable">
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<th>Campaign Name</th>
+					<th>Date</th>
+					<th>Contact Group</th>
+					<th>Delivery Status</th>
+					<th>Opened Status</th>
+					<th>Campaign response</th>
+					<th>Campaign Created By</th>
+				</tr>
+			</thead>
+
+			<tbody>
+			<tr ng-repeat="campaign in campaigns">
+					<td>{{campaign.name}}</td>
+					<td>{{campaign.createdOn}}</td>
+					<td>Kinshana Office 10 </td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>{{campaign.createdBy}}</td>
+				</tr>
+				
+			</tbody>
+			
+		</table>
+	</div>
+
+
+
+
+<!-- Modal to add a campaign -->
+  <div class="modal " id="addCampaignModal" role="dialog" >
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Start Campaign</h4>
+        </div>
+        <div class="modal-body addCampaignModalBody">
+         	
+         	<input type="text" class="form-control" placeholder="Campaign Name" ng-model="campaignName">
+
+         <!--	<select id="groupDropDown">
+         		<option ng-repeat="group in groups.Groups">{{group.name}}</option>
+         	</select>
+-->
+<!--groupName : {{groupSelected.id}}-->
+    <select ng-model="groupSelected" ng-options="group.name for group in groups.Groups">
+      <option value="">Choose Group </option>
+    </select>
+         	<input type="text" class="form-control" placeholder="subject" ng-model="campaignEmailSubject">
+
+         	<textarea class="form-control" placeholder="Message or body" ng-model="campaignMessage">{{campaignMessage}}</textarea>
+
+         	<button class="btn btn-default" data-toggle="modal" data-target="#templateModal" ng-click="previewTemplate()">preview Template</button>
+    
+         	<button class="btn btn-primary" ng-click="addCampaignSubmit()">Start Campaign</button>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<!-- Modal to add a campaign -->
+  <div class="modal fade" id="sendSMSModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Start Campaign</h4>
+        </div>
+        <div class="modal-body addCampaignModalBody">
+         	
+         	<input type="text" class="form-control" placeholder="Sender Name" ng-model="smsSenderName" >
+
+         	<select id="groupDropDown" ng-model="group.id" ng-options="group.name for group in groups.Groups">
+         		<option ></option>
+         	</select>
+
+         	<textarea class="form-control" placeholder="Message or body" ng-model="smsText"></textarea>
+
+
+         	<button class="btn btn-primary" ng-click="sendSMS(group.id)">Send SMS</button>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+  <!-- Modal to Preview Template -->
+  <div class="modal fade" id="templateModal" role="dialog" data-backdrop="static" data-keyboard="false" >
+    <div class="modal-dialog" style="width:800px" >
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" ng-click="hideTemplatePreview()">&times;</button>
+          <h4 class="modal-title">Preview Template</h4>
+        </div>
+        <div class="modal-body ">
+         	
+         	<div ng-bind-html="htmlTemplate" ng-if="isShowTemplate">
+  			</div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="hideTemplatePreview()">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+</div>
+
+<style>
+    .mailContainer .viewCampaignTable table tr td{
+            max-height: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+    }
+
+</style>

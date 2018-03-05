@@ -1,0 +1,134 @@
+<div class="container newUserProfile">
+    <br>
+    <div class="row">
+    <div class="userPicContainer col-lg-2" >
+        <div class="profileBackgroundImg" ng-style="{'background-image':'url(' +userProfilePic+ ')'}"  ng-if="!newUploadPic">
+
+            <div class="changeUserPhotoBtn" ng-click="browseUserProfilePic()"><i class="fa fa-camera"></i> Change Photo</div>
+            <!--<input type="file" class="fileUploadInput" name="image" onchange="angular.element(this).scope().fileSelected(this.files)" ng-show="false" />-->
+        </div>
+
+          <!--<img onerror="this.src='img/default-avatar.png';"  ng-src="{{userProfilePic}}" style="width:120px;height:100px">-->
+                  <!-- <input type="file" class="fileUploadInput" name="image" onchange="angular.element(this).scope().fileSelected(this.files)"  />-->
+
+        <input type="file" class="fileUploadInput" name="image" onchange="angular.element(this).scope().fileSelected(this.files)" ng-show="false" />
+    </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span12" id="content"><div><div id="details" class="span7"><div><p>
+        <!-- <img src="pics/James_King.jpg" width="160" height="160"> -->
+        </p>
+        <h3 style="display: inline-block;">  <span ng-if="!isUserProfileEdit">{{mainUserInfo.name}}</span>   
+        <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.name"/></h3>
+      <!--   <h4>President and CEO</h4> -->
+       <span class="fa fa-pencil" style="cursor: pointer;" ng-click="allowEditProfile()" ng-if="!isUserProfileEdit"></span>
+        <span class="fa fa-check" style="cursor: pointer;" ng-if="isUserProfileEdit" ng-click="saveMainUserProfile()"></span>
+        <br>    
+        <table class="table table-striped">
+            
+            <tbody><tr>
+                <td>Home Address:</td>
+                <td>
+                    <i class="fa fa-home mr5"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.homeAddress}}</span>
+                    <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.homeAddress"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                     <i class="glyphicon glyphicon-envelope mr5"></i><span ng-if="!isUserProfileEdit"> {{mainUserInfo.email}}</span>
+                    <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.email"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Cell Phone:</td>
+                <td>
+                    <i class="fa fa-phone mr5"></i><a ng-if="!isUserProfileEdit" href="http://www.jquery2dotnet.com"><span> {{mainUserInfo.phone}} </span></a>
+                    <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.phone"/> 
+                </td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td>
+                    <i class="fa fa-birthday-cake mr5"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.dob}}</span>
+                    <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.dob"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Department</td>
+                <td>
+                    <i class="fa fa-building-o mr5"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.department}}</span>
+                    <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.department"/>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <i class="glyphicon glyphicon-gift mr5"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.gender}}</span>
+                    <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.gender"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Hire Date:</td>
+                <td> 
+                    <i class="fa fa-user mr5"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.hireDate}}</span>
+                    <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.hireDate"/> 
+                </td>
+            </tr>
+
+
+        </tbody></table>
+
+        
+</div></div>
+            <!--
+<div class="span5" style="display:none;">
+    <div id="reports" class="well">
+        <h3 class="modal-header">Direct Reports</h3>
+
+        <div class="alert alert-info no-reports">
+            <h4 class="alert-heading">Info</h4>
+            James King has no direct reports
+        </div>
+    <ul class="nav nav-list"><li><a href="#employees/2">
+    <img width="50" height="50" src="pics/Julie_Taylor50.jpg" style="float:left;margin-right: 10px;">
+    <p class="list-item">Julie Taylor<br>VP of Marketing</p>
+</a></li><li><a href="#employees/3">
+    <img width="50" height="50" src="pics/Eugene_Lee50.jpg" style="float:left;margin-right: 10px;">
+    <p class="list-item">Eugene Lee<br>CFO</p>
+</a></li><li><a href="#employees/4">
+    <img width="50" height="50" src="pics/John_Williams50.jpg" style="float:left;margin-right: 10px;">
+    <p class="list-item">John Williams<br>VP of Engineering</p>
+</a></li><li><a href="#employees/5">
+    <img width="50" height="50" src="pics/Ray_Moore50.jpg" style="float:left;margin-right: 10px;">
+    <p class="list-item">Ray Moore<br>VP of Sales</p>
+</a></li></ul></div>
+</div>
+-->
+</div></div>
+    </div>
+
+
+
+  
+
+</div>
+
+<style type="text/css">
+    .span7 {
+        width: 60%;
+        float: left;
+    }
+    .span5 {
+        width: 40%;
+        float: left;
+    }
+
+    .newUserProfile{
+        background-color: white;
+    }
+</style>

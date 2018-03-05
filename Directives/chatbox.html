@@ -1,0 +1,104 @@
+<div class="chatbox">
+<div class=" ">
+    <div class="row chat-window col-xs-5 col-md-3" id="chat_window_1" >
+        <div class="">
+        	<div class="panel panel-default" ng-init="minimise=false">
+                <div class="panel-heading top-bar"  ng-click="minimise=!minimise">
+                    <div class="col-md-8 col-xs-8">
+                        <h3 class="panel-title chatboxHeader"><span class="glyphicon glyphicon-comment"></span> Chat - {{chat.fromUserName}}</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-4" style="text-align: right;">
+                      <!--   <a ng-click="minimise=true"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a> -->
+                        <a ng-click="chat.active = false"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1" style="cursor: pointer;"></span></a>
+                    </div>
+                </div>
+                <div class="panel-body msg_container_base" ng-show="!minimise">
+                <div ng-repeat="text in chat.chatDetail">
+                    
+                    <div class="row msg_container base_sent" ng-if="$root.userId == text.fromId  && (!text.isError)">
+                        <div class="col-md-10 col-xs-10">
+                            <div class="messages msg_sent">
+                                <p>{{text.message}}</p>
+                                <!--<time datetime="{{formatAMPM(text.time)}}"></time>-->
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-xs-2 avatar">
+                            <img ng-src="{{getChatboxUserProfilePic($root.userProfilePic)}}" class=" img-responsive ">
+                        </div>
+                    </div>
+
+                    <div class="row msg_container base_sent" ng-if="$root.userId == text.fromId  && text.isError">
+                        <div class="col-md-10 col-xs-10">
+                            <div class="messages msg_sent" style="background-color: #dcd2d2 ">
+                                <p>{{text.message}}</p>
+                                <span>{{text.errorMsg}}</span>
+                                <!--<time datetime="{{formatAMPM(text.time)}}"></time>-->
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-xs-2 avatar">
+                            <img ng-src="{{getChatboxUserProfilePic($root.userProfilePic)}}">
+                        </div>
+                    </div>
+
+                    <div class="row msg_container base_receive" ng-if="$root.userId != text.fromId">
+                        <div class="col-md-2 col-xs-2 avatar">
+                            <img  ng-src="{{getChatboxFromUserProfilePic(text.profilePic)}}" class=" img-responsive ">
+                        </div>
+                        <div class="col-md-10 col-xs-10">
+                            <div class="messages msg_receive">
+
+                                <p>{{text.message}}</p>
+                                <!--<time datetime="2009-11-13T20:00">{{formatAMPM(text.time)}}</time>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 
+                 <div ng-if="chat.sending">
+                    <div class="row msg_container base_sent">
+                        <div class="col-md-10 col-xs-10">
+                            <div class="messages msg_sent" style="background-color: #dcd2d2 ">
+                                <p>{{newMessageFromUser}}</p>
+                               <span style="float: right;"> Sending.. 
+                                    <i class="fa fa-spinner fa-spin" aria-hidden="true" ></i>
+                               </span>
+                                
+                                <!--<time datetime="{{formatAMPM(text.time)}}"></time>-->
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-xs-2 avatar">
+                            <img src="http://www.bitrebels.com/wp-content/uploads/2011/02/Original-Facebook-Geek-Profile-Avatar-1.jpg" class=" img-responsive ">
+                        </div>
+                    </div>
+                
+                 </div>
+
+
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" ng-model="newMessageFromUser" class="form-control input-sm chat_input" placeholder="Write your message here..." />
+                        <span class="input-group-btn">
+                        <button class="btn btn-primary btn-sm" id="btn-chat" ng-click="sendMessage(chat.chatsArrIndex,newMessageFromUser,chat.fromUserId);scrollDown();newMessageFromUser=''">Send</button>
+                        </span>
+                    </div>
+                </div>
+    		</div>
+        </div>
+    </div>
+    
+<!--     <div class="btn-group dropup">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-cog"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#" id="new_chat"><span class="glyphicon glyphicon-plus"></span> Novo</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-list"></span> Ver outras</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-remove"></span> Fechar Tudo</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><span class="glyphicon glyphicon-eye-close"></span> Invisivel</a></li>
+        </ul>
+    </div> -->
+</div>
+</div>

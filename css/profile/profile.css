@@ -1,0 +1,112 @@
+/* line 1, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+.userProfileContainer {
+  min-height: 500px; }
+  /* line 3, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+  .userProfileContainer .leftContainer {
+    padding: 0;
+    min-height: inherit; }
+    /* line 7, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+    .userProfileContainer .leftContainer .basicInfoTxt {
+      font-weight: bold;
+      margin: 11px 0; }
+    /* line 12, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+    .userProfileContainer .leftContainer .leftinnerContainer {
+      background-color: white;
+      min-height: inherit;
+      padding: 0 5px; }
+    /* line 19, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+    .userProfileContainer .leftContainer .userPicContainer {
+      padding-top: 10px;
+      text-align: center;
+      position: relative; }
+      /* line 25, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .leftContainer .userPicContainer:hover .changeUserPhotoBtn {
+        cursor: pointer;
+        display: block;
+        background-color: rgba(51, 51, 51, 0.8);
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        text-align: center; }
+      /* line 39, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .leftContainer .userPicContainer .changeUserPhotoBtn {
+        display: none; }
+      /* line 46, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .leftContainer .userPicContainer img {
+        width: 150px;
+        max-width: 150px;
+        height: 150px;
+        max-height: 150px; }
+      /* line 52, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .leftContainer .userPicContainer .fileUploadInput {
+        margin-top: 10px;
+        max-width: 100%; }
+    /* line 59, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+    .userProfileContainer .leftContainer .userBasicInfoContainer {
+      margin-top: 20px; }
+      /* line 62, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .leftContainer .userBasicInfoContainer .col-md-6 {
+        padding: 5px 0; }
+  /* line 68, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+  .userProfileContainer .rightContainer {
+    margin-left: 15px;
+    min-height: inherit;
+    max-width: 850px; }
+    /* line 73, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+    .userProfileContainer .rightContainer .nav-tabs li:first-child {
+      margin-left: 20px; }
+    /* line 78, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+    .userProfileContainer .rightContainer .summaryContainer {
+      background-color: white;
+      padding: 10px; }
+      /* line 82, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .rightContainer .summaryContainer .editSaveBtn {
+        padding-left: 10px; }
+      /* line 85, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .rightContainer .summaryContainer .contactsContainer, .userProfileContainer .rightContainer .summaryContainer .notesContainer {
+        padding: 10px; }
+      /* line 90, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .rightContainer .summaryContainer .notesContainer textarea {
+        width: 100%; }
+      /* line 95, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .rightContainer .summaryContainer .contactsContainer .contactsTxt {
+        padding-left: 15px;
+        font-weight: bold; }
+      /* line 101, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .rightContainer .summaryContainer .notesDivider {
+        background-color: #f3f3f4;
+        padding: 10px;
+        border: 0;
+        font-weight: bold;
+        font-size: 13px; }
+    /* line 111, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+    .userProfileContainer .rightContainer .attachmentContainer {
+      background-color: #f9f9f9;
+      min-height: 500px; }
+      /* line 116, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .rightContainer .attachmentContainer .userFileAttachTable {
+        table-layout: fixed; }
+        /* line 118, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+        .userProfileContainer .rightContainer .attachmentContainer .userFileAttachTable td {
+          word-wrap: break-word; }
+      /* line 124, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+      .userProfileContainer .rightContainer .attachmentContainer .container {
+        padding: 10px; }
+        /* line 127, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+        .userProfileContainer .rightContainer .attachmentContainer .container .fileAttachmentInput {
+          display: none; }
+        /* line 130, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+        .userProfileContainer .rightContainer .attachmentContainer .container button {
+          background-color: #d8d8d8; }
+
+/* line 139, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+.mtb-10px {
+  margin: 10px 0; }
+
+/* line 143, C:/wamp64/www/angularphp/CRM.git/trunk/css/profile/profile.scss */
+.pointer {
+  cursor: pointer; }
+
+/*# sourceMappingURL=profile.css.map */

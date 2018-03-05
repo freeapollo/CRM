@@ -1,0 +1,91 @@
+﻿<div class="userDetailsContainer">    
+    <div class="container-fluid overlay">
+      <div class="row">
+      
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
+   
+   
+          <div class="panel panel-info">
+            <div class="panel-heading modalHeading">
+              <h3 class="panel-title">{{companyDetails.name}}</h3>
+                <span class="pull-right">
+                            <a data-original-title="Remove this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-remove" ng-click="config.showCompanyDetailPopUp=false"></i></a>
+                        </span>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="img/default-avatar.png" class="img-circle img-responsive"> </div>
+                
+                <!--<div class="col-xs-10 col-sm-10 hidden-md hidden-lg"> <br>
+                  <dl>
+                    <dt>DEPARTMENT:</dt>
+                    <dd>Administrator</dd>
+                    <dt>HIRE DATE</dt>
+                    <dd>11/12/2013</dd>
+                    <dt>DATE OF BIRTH</dt>
+                       <dd>11/12/2013</dd>
+                    <dt>GENDER</dt>
+                    <dd>Male</dd>
+                  </dl>
+                </div>-->
+                <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>
+                      <tr>
+                        <td>AreaOfWork:</td>
+                        <td>{{companyDetails.areaOfWork}}</td>
+                      </tr>
+                      <tr>
+                        <td>Hire date:</td>
+                        <td>{{companyDetails.name}}</td>
+                      </tr>
+                      <tr>
+                        <td>Established</td>
+                        <td>{{companyDetails.establised}}</td>
+                      </tr>
+                   
+                         <tr>
+                             <tr>
+                        <td>No of Employees</td>
+                        <td>{{companyDetails.employees}}</td>
+                      </tr>
+                        <tr>
+                        <td>Gross Revenue</td>
+                        <td>{{companyDetails.revenue}}</td>
+                      </tr>
+                      <tr>
+                        <td>Email</td>
+                        <td><a href="mailto:info@support.com">{{companyDetails.email}}</a></td>
+                      </tr>
+                        <tr>
+                        <td>Address</td>
+                        <td>{{companyDetails.ofcAddress}}
+                        </td>
+                           
+                      </tr>
+                     
+                    <tr>
+                        <td>Phone Number</td>
+                        <td>{{companyDetails.phone}}
+                        </td>
+                           
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+                  
+                  <a href="#" class="btn btn-primary">My Sales Performance</a>
+                  <a href="#" class="btn btn-primary">Team Sales Performance</a>
+                </div>
+              </div>
+            </div>
+                 <div class="panel-footer">
+                        <a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
+                        
+                    </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

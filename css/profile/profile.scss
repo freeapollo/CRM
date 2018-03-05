@@ -1,0 +1,145 @@
+.userProfileContainer {
+    min-height: 500px;
+    .leftContainer{
+        padding: 0;
+        min-height: inherit;
+        
+        .basicInfoTxt{
+            font-weight: bold;
+            margin: 11px 0;
+        }
+        
+        .leftinnerContainer{
+            background-color: white;
+            min-height: inherit;
+            padding: 0 5px;
+
+        }
+         
+        .userPicContainer {
+            padding-top: 10px;
+            text-align:center;
+            position: relative;
+            
+             &:hover{
+                 .changeUserPhotoBtn{
+                    cursor: pointer;
+                    display:block;
+                    background-color:rgba(51,51,51,0.8);
+                    color:white;
+                    position:absolute;
+                    bottom: 0px;
+                    left: 0;
+                    right: 0;
+                    text-align:center;
+                    
+                }
+            }
+            
+            .changeUserPhotoBtn{
+                display:none;
+                
+            }
+    
+            
+            
+            img {
+                width: 150px;
+                max-width:150px;
+                height:150px;
+                max-height:150px;
+            }
+            .fileUploadInput{
+                margin-top: 10px;
+                max-width: 100%;
+            }
+            
+        }
+        
+        .userBasicInfoContainer{
+            margin-top: 20px;
+            
+            .col-md-6{
+                padding: 5px 0;
+            }
+        }
+    }
+    
+    .rightContainer{
+       margin-left: 15px;
+       min-height: inherit;
+       max-width: 850px;    
+        .nav-tabs{
+            li:first-child{
+                margin-left: 20px;
+                }
+        }
+        
+        .summaryContainer{
+            background-color: white;
+            padding: 10px;
+            
+            .editSaveBtn{
+                padding-left: 10px;
+            }
+            .contactsContainer,.notesContainer{
+                padding: 10px;
+               
+            }
+            .notesContainer{
+                textarea{
+                    width:100%;
+                }
+            }
+            .contactsContainer{
+                .contactsTxt{
+                    padding-left: 15px;
+                    font-weight: bold;
+                }
+            }
+            
+            .notesDivider{
+                background-color: #f3f3f4;
+                padding: 10px;
+                border: 0;
+                font-weight: bold;
+                font-size: 13px;
+            }
+            
+        }
+        
+        .attachmentContainer{
+            
+            background-color: #f9f9f9;
+            min-height: 500px;
+            
+            .userFileAttachTable{
+                table-layout: fixed;
+                td{
+                    word-wrap:break-word;
+                    
+                }
+            }
+            
+            .container{
+                padding: 10px;
+                
+                .fileAttachmentInput{
+                    display:none;
+                }
+                button{
+                    background-color: #d8d8d8;
+                }
+            }
+           
+        }
+    }
+}    
+
+.mtb-10px{
+   margin: 10px 0;
+}
+
+.pointer {
+    cursor: pointer;
+}

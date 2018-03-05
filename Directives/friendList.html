@@ -1,0 +1,18 @@
+<div class="ibox chat-view">
+    <div class="ibox-content">
+        <div class="">
+            <div class="chat-users">
+            <div class="userListHeader"></div>
+                <div class="users-list">
+                    <div class="chat-user" ng-repeat="friend in friendList">
+                        <span class="pull-right label label-primary" ng-if="friend.status">Online</span>
+                        <img class="chat-avatar" ng-src="{{getprofilepicurl(friend.profilePic)}}" alt="" >
+                        <div class="chat-user-name">
+                            <a ng-click="openChatBox(friend.id,0,friend.name)">{{getfirstname(friend.name)}}</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>

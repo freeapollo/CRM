@@ -1,0 +1,32 @@
+.mailContainer{
+    .addCampaignBtnBlock{
+        margin:20px 0;
+    }
+    .viewCampaignTable{
+        table{
+            table-layout: fixed;
+            thead{
+                tr{
+                    th{
+                        font-weight: bold;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    #addCampaignModal,#sendSMSModal{
+        .addCampaignModalBody{
+            input,select,textarea,button {
+                margin-bottom: 10px;    
+            }
+            select{
+                width:100%;
+                padding: 10px;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,94 @@
+
+<div class="container-fluid" >
+    <!-- modal PopUp -->
+    <userdetail ng-show="config.showUserPopUp"></userdetail>
+    <comapnydetail ng-show="config.showCompanyDetailPopUp"></comapnydetail>
+    <!-- modul PopUp end -->
+	<div class="row">
+        
+  <section id="peopleTable" ng-click="showAutoComplete=false">
+           
+    <div class="row-fluid homeBreadCumb">
+      <span class="breadcrumbTitle">  Contacts</span>
+      <ol class="breadcrumb">
+
+        <!--<li class="active"><a href="#">Layouts</a></li>-->
+      </ol>
+    </div>       
+
+    <table class="table dataTables-example  table-striped table-bordered table-hover">
+    
+    <thead>
+      <tr>
+        <th ng-click="sortBy('name')">Name
+          <span class="arrowDown fs10px" ng-show="propertyName == 'name'  && reverse == false">&#9660;</span>
+          <span class="arrowUp fs10px" ng-show="(propertyName == 'name'   && reverse == true) || propertyName !== 'name' ">&#9650;</span>
+          </th>
+        <th  ng-click="sortBy('jobRole')">Job Title
+            <span class="arrowDown fs10px" ng-show="propertyName == 'jobRole'  && reverse == false">&#9660;</span>
+            <span class="arrowUp fs10px" ng-show="(propertyName == 'jobRole'   && reverse == true) || propertyName !== 'jobRole' ">&#9650;</span>
+          </th>
+        <th ng-click="sortBy('industry')">Industry
+            <span class="arrowDown fs10px" ng-show="propertyName=='industry' && reverse == false">&#9660;</span>
+            <span class="arrowUp fs10px" ng-show="(propertyName=='industry'   && reverse == true) || propertyName !== 'industry' ">&#9650;</span>
+          </th>
+        <th ng-click="sortBy('location')">Location
+            <span class="arrowDown fs10px" ng-show="propertyName == 'location' && reverse == false" >&#9660;</span>
+            <span class="arrowUp fs10px" ng-show="(propertyName == 'location'  && reverse == true) || propertyName !== 'location' ">&#9650;</span>
+          </th>
+          <th ng-click="sortBy('company')">Company
+            <span class="arrowDown fs10px" ng-show="propertyName == 'company' && reverse == false">&#9660;</span>
+            <span class="arrowUp fs10px" ng-show="(propertyName=='company'    && reverse == true) || propertyName !== 'company' ">&#9650;</span>
+          </th>  
+        <!-- <th>ratings</th>   -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="empl in employees |  orderBy:propertyName:reverse " ng-if="emplId.length>0 ? emplId.indexOf(empl.id): true" 
+          ng-show="tagSearchedItems.length==0">
+    
+        <td class="userImg">
+            <div class="userAvatar"><img ng-src={{crmconfig.serverDomainName+"/"+empl.imgUrl}} 
+               onerror="this.onerror=null;this.src='img/default-avatar.png';">
+             </div>
+            <span class="pointer" ng-click='showUserDetail(empl.id)'> {{empl.name}}</span>
+            <!-- ng-click="showUserDetail(empl.id)" -->
+        </td>
+
+        <td>{{empl.jobRole}}</td>
+        
+        <td><span class="label " ng-class="{'label-success':empl.industry=='Finance'||empl.industry=='IT','label-warning':empl.industry=='Development'||empl.industry=='Health tech','label-info':empl.industry=='Real-Estate'}">{{empl.industry}}</span>
+        </td>
+        
+        <td >{{empl.location}}</td>
+        
+        <td class="pointer" ng-click="showCompanyDetail(empl.companyId)">{{empl.Company[0].name}}</td>
+          
+      </tr>
+
+      <tr ng-show="tagSearchedItems.length>0" ng-repeat="empl in tagSearchedDetails  | unique:'id'|  orderBy:propertyName:reverse" ng-if="emplId.length>0 ? emplId.indexOf(empl.id): true">
+
+        <td class="userImg">
+            <div class="userAvatar"><img ng-src={{crmconfig.serverDomainName+"/"+empl.imgUrl}} 
+               onerror="this.onerror=null;this.src='img/default-avatar.png';"></div>
+            <span class="pointer" ng-click="showUserDetail(empl.id)" > {{empl.name}}</span>
+        </td>
+      
+        <td>{{empl.jobRole}}</td>
+        
+        <td><span class="label " ng-class="{'label-success':empl.industry=='Finance'||empl.industry=='IT','label-warning':empl.industry=='Development'||empl.industry=='Health tech','label-info':empl.industry=='Real-Estate'}">{{empl.industry}}</span>
+        </td>
+        
+        <td >{{empl.location}}</td>
+        
+        <td class="pointer" ng-click="showCompanyDetail(empl.companyId)">{{empl.Company[0].name}}</td>
+          
+      </tr>
+      
+    </tbody>
+  </table>
+                      
+  </section>
+
+</div>
+</div>

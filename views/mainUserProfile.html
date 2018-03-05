@@ -1,0 +1,86 @@
+<div class="mainUserProfileContainer">
+
+    <header>
+        <h2 class="heading" style="display:inline-block;margin-right:5px">Edit Profile</h2>
+        <span class="fa fa-pencil" style="cursor: pointer;" ng-click="allowEditProfile()" ng-if="!isUserProfileEdit"></span>
+        <span class="fa fa-check" style="cursor: pointer;" ng-if="isUserProfileEdit" ng-click="saveMainUserProfile()"></span>
+    </header>
+    <h4> 
+        <span ng-if="!isUserProfileEdit">{{mainUserInfo.name}}</span>   
+        <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.name"/>
+    </h4>
+    
+    
+    <small>
+        <cite title="San Francisco, USA"><span ng-if="!isUserProfileEdit">{{mainUserInfo.homeAddress}}</span>
+         <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.homeAddress"/>
+        <i class="glyphicon glyphicon-map-marker"></i>
+        </cite>
+    </small>
+    <p>
+        <div class="mb10">
+            <i class="glyphicon glyphicon-envelope"></i><span ng-if="!isUserProfileEdit"> {{mainUserInfo.email}}</span>
+            <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.email"/>
+        </div>
+        
+        <div class="mb10">
+            <i class="fa fa-phone"></i><a ng-if="!isUserProfileEdit" href="http://www.jquery2dotnet.com"><span> {{mainUserInfo.phone}} </span></a>
+            <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.phone"/>    
+        </div >
+    
+        <div class="mb10">
+            <i class="fa fa-birthday-cake"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.dob}}</span>
+            <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.dob"/> 
+        </div>
+    
+        <div class="mb10">
+            <i class="fa fa-building-o"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.department}}</span>
+            <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.department"/> 
+        </div>
+    
+        <div class="mb10">
+            <i class="glyphicon glyphicon-gift"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.gender}}</span>
+            <input ng-if="isUserProfileEdit" ng-model="mainUserInfo.gender"/> 
+        </div>
+        
+        <div class="mb10">
+                <i class="fa fa-user"></i><span ng-if="!isUserProfileEdit">{{mainUserInfo.hireDate}}</span>
+                <input ng-if="isUserProfileEdit"  ng-model="mainUserInfo.hireDate"/> 
+        </div>
+    
+        
+    </p>
+    <!-- Split button -->
+    
+    
+</div>
+
+
+<style>
+    small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+    }
+    
+    .glyphicon ,.fa{  margin-bottom: 10px;margin-right: 10px;}
+    
+    .mainUserProfileContainer{
+        background-color: white;
+        padding: 10px 20px;
+        
+        header {
+            h2 {
+                display: inline-block;
+            }
+        }
+        
+       
+    }
+    
+     i{
+            width:20px;
+            max-width: 20px;
+
+        }
+</style>
